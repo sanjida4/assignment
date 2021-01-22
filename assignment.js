@@ -1,3 +1,5 @@
+// https://github.com/sanjida4/assignment
+
 //first problem "kilometer to meter"
 function kilometerToMeter(kilometer){
     if(kilometer<0){
@@ -13,7 +15,8 @@ function kilometerToMeter(kilometer){
 var output = kilometerToMeter(0.5);
 console.log(output);
 
-//second roblem Budget Calculator
+
+//second problem Budget Calculator
 function budgetCalculator(watch, mobile, laptop){
     if(watch>=0 && mobile>=0 && laptop>=0){
         let sum = 0;
@@ -29,6 +32,7 @@ function budgetCalculator(watch, mobile, laptop){
 }
 var output = budgetCalculator(2,5,7);
 console.log(output);
+
 
 // Third problem "Hotel Cost"
 function hotelCost(days){
@@ -58,6 +62,7 @@ function hotelCost(days){
 }
 var output = hotelCost(21);
 console.log(output);
+
 
 //Forth problem "mega friend"
 function megaFriend(friends){
